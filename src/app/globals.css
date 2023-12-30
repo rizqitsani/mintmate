@@ -70,7 +70,17 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
+  }
+
+  .layout {
+    max-width: 75rem;
+    @apply mx-auto w-11/12;
+  }
+
+  .min-h-main {
+    min-height: calc(100dvh - 4rem - 2px);
   }
 }
